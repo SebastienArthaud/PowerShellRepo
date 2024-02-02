@@ -7,37 +7,37 @@ switch($Environnement)
 {
     "Developement"{
         $resourceGroupName = "rg-e2-np-app-$Appli-dev"
-        $SubscriptionID = "8197d8ee-b7df-4b0a-bdaf-bd38b0f19aaf"
+        $SubscriptionID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         $Env = "dev"
     }
     "Formation"{
         $resourceGroupName = "rg-e2-np-app-$Appli-for"
-        $SubscriptionID = "8197d8ee-b7df-4b0a-bdaf-bd38b0f19aaf"
+        $SubscriptionID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         $Env = "for"
     }
     "Integration"{
         $resourceGroupName = "rg-e2-np-app-$Appli-int"
-        $SubscriptionID = "8197d8ee-b7df-4b0a-bdaf-bd38b0f19aaf"
+        $SubscriptionID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         $Env = "int"
     }
     "Performance"{
         $resourceGroupName = "rg-e2-np-app-$Appli-prf"
-        $SubscriptionID = "8197d8ee-b7df-4b0a-bdaf-bd38b0f19aaf"
+        $SubscriptionID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         $Env = "prf"
     }
     "Qualification"{
         $resourceGroupName = "rg-e2-np-app-$Appli-qua"
-        $SubscriptionID = "8197d8ee-b7df-4b0a-bdaf-bd38b0f19aaf"
+        $SubscriptionID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         $Env = "qua"
     }
     "preproduction"{
         $resourceGroupName = "rg-e2-pr-app-$Appli-ppd"
-        $SubscriptionID = "57197bef-475c-4be3-85ed-057c27149ed1"
+        $SubscriptionID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         $Env = "ppd"
     }
     "Production"{
         $resourceGroupName = "rg-e2-pr-app-$Appli-prd"
-        $SubscriptionID = "57197bef-475c-4be3-85ed-057c27149ed1"
+        $SubscriptionID = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
         $Env = "prd"
     }
 }
